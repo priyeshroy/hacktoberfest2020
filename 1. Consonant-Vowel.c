@@ -12,7 +12,7 @@ int main() {
     uppercase = (c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U');
 
     // evaluates to 1 if c is either lowercase or uppercase
-    if (lowercase && uppercase)
+    if (lowercase || uppercase)
         printf("%c is a vowel.", c);
     else
         printf("%c is a consonant.", c);
