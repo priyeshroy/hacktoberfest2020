@@ -22,7 +22,7 @@ int main()
 {
     //enter value
     int num;
-    printf("Enter number:")
+    printf("Enter number:");
     scanf("%d",&num);
     
     //checking condition
